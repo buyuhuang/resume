@@ -1,0 +1,223 @@
+{
+  "data_lang": "zh-CN",
+  "ga_id": "UA-63818301-2",
+  "resume_title": "aleen42 | Resume",
+  "name": "徐沛文",
+  "job_description": ["前端工程师", "软件工程师"],
+  "contact": {
+    "email": "aleen42@vip.qq.com",
+    "wechat": {
+      "id": "Aleen_me",
+      "qrcode": "static/wechat.svg"
+    },
+    "sinaweibo": {
+      "id": "aleen42",
+      "url": "http://weibo.com/234835584"
+    },
+    "github": {
+      "id": "aleen42"
+    },
+    "blog": {
+      "url": "https://aleen42.gitbooks.io/personalwiki/content/"
+    }
+  },
+  "links": [{
+    "type": "pdf",
+    "url": "static/aleen42.pdf"
+  }, {
+    "type": "linkedin",
+    "url": "https://www.linkedin.com/in/aleen42"
+  }, {
+    "type": "lofter",
+    "url": "http://aleen42.lofter.com/"
+  }],
+  "education": [{
+    "type": "undergraduate",
+    "name": "西安电子科技大学",
+    "major": "软件工程",
+    "start": "2012",
+    "end": "2016",
+    "honor": [
+      "2012 - 2013 学年度校**二等奖学金**",
+      "2013 - 2014 学年度校**二等奖学金**",
+      "2014 - 2015 学年度校**二等奖学金**"
+    ]
+  }],
+  "language": [{
+    "type": "english",
+    "certificate": [{
+      "type": "CET-4",
+      "full": "710",
+      "score": "550"
+    }, {
+      "type": "CET-6",
+      "full": "710",
+      "score": "510"
+    }],
+    "description": [
+      "能流畅阅读英文专业书籍、文档及其他资料",
+      "常参加翻译活动（掘金翻译计划），并发表在自家博客上",
+      "能在 StackOverflow 、GitHub 等技术社区上进行讨论"
+    ]
+  }],
+  "experience": [{
+    "type": "internship",
+    "techtype": "frontend",
+    "place": "声牙科技 Soundtooth",
+    "start": "2015.07",
+    "end": "至今",
+    "name": "Web 端开发",
+    "description": [
+      "基于 `Laravel` 及 `ThinkPHP` 框架下进行 API 接口开发以及网页前端开发",
+      "使用 `jPlayer` 自主开发网页播放器，并参与公司前期 Voice In 网站的前后端开发",
+      "使用 `Node.js` 自主开发 `GitBook` 的插件"
+    ]
+  }, {
+    "type": "fulltime",
+    "techtype": "other",
+    "place": "声牙科技 Soundtooth",
+    "start": "2015.11",
+    "end": "至今",
+    "name": "视频处理开发",
+    "description": [
+      "借用 `OpenCV` 技术，完成公司 Media In 项目的部分核心技术",
+      "解决视频动态植入内容的部分问题",
+      "为了便于项目开发，基于 OpenCV 上搭建了一套中间件，名为`LightOpenCV`"
+    ]
+  }, {
+    "type": "internship",
+    "techtype": "other",
+    "place": "曼途电子商务 mtwos",
+    "start": "2014.08",
+    "end": "2015.04",
+    "name": "VBA 开发",
+    "description": [
+      "使用 `Visual Basic for Application (VBA)` 开发 Excel 的数据自动处理脚本",
+      "参与公司订单以及部分表单生成的自动化脚本开发"
+    ]
+  }, {
+    "type": "project",
+    "techtype": "frontend",
+    "project_type": "personal",
+    "name": "CLS - Code Line Statistic for GitHub",
+    "source": "https://github.com/aleen42/CLS",
+    "description": [
+      "一个基于 `Node.js`，用于统计个人 GitHub 仓库中代码数目的命令行工具",
+      "字节数 Bytes 统计只需要调用 GitHub 开放的 API",
+      "行数 Lines 统计需要使用到 `svn ls` 来遍历出相关文件，并通过 `svn cat` 来访问文件以统计文件行数"
+    ],
+    "stack": ["Node.js", "svn"]
+  }, {
+    "type": "project",
+    "techtype": "frontend",
+    "project_type": "personal",
+    "name": "page-footer",
+    "source": "https://github.com/aleen42/gitbook-footer",
+    "description": [
+      "一个基于 `Node.js` 所开发的 GitBook 插件，用于为书籍生成页尾",
+      "首先采用 GitBook 所规定的形式，组织好代码结构，并以 hook 对象中的 page:before 函数作为整个插件的入口",
+      "调用了 `localCache` 模块用于缓存第一次请求所获取的数据，防止书籍编译过程中重复调用接口",
+      "其中调用了 `qrcode.js` 用于生成高质量二维码"
+    ],
+    "stack": ["Node.js", "localCache", "qrcode.js"]
+  }, {
+    "type": "project",
+    "techtype": "frontend",
+    "project_type": "personal",
+    "name": "Personal Wiki",
+    "source": "https://github.com/aleen42/PersonalWiki",
+    "demo": "https://aleen42.gitbooks.io/personalwiki/content/",
+    "description": [
+      "基于 `GitBook` 所编写的个人笔记",
+      "使用 `Markdown` 作为整个书籍编辑的语言",
+      "收集了个人在程序设计生涯中所学习的一切知识并汇编成一个树型结构的书籍，以节点作为每一个知识点的入口"
+    ],
+    "stack": ["GitBook", "Markdown"]
+  }, {
+    "type": "project",
+    "techtype": "",
+    "project_type": "personal",
+    "name": "...",
+    "description": [
+      "更多请移至 GitHub 上查看"
+    ]
+  }],
+  "skills": [{
+    "type": "frontend",
+    "item": [{
+      "summary": "`HTML` / `CSS`",
+      "description": [
+        "能够编写语义化的 `HTML`，且代码布局清晰。",
+        "能通过个人的 HTML 查找手册，快速定位开发中所遇到的问题",
+        "能使用已标准化的 `HTML5` / `CSS3` 新特性进行复杂的业务逻辑开发",
+        "CSS 开发部分遵循 `BEM` 命名规则，并逐步归纳总结出自己喜欢且符合大部分开发者的开发规范"
+      ]
+    }, {
+      "summary": "`ECMAScript`（`JavaScript`）",
+      "description": [
+        "较为熟悉 `ECMAScript`（`JavaScript`），并对新的 ES6 部分标准有所了解",
+        "JavaScript 开发严格遵循自己的一套开发规范。该规范是基于部分大公司的规范所总结，如 Airbnb、Idiomatic 等。"
+      ]
+    }, {
+      "summary": "`Node.js`",
+      "description": [
+        "能够使用 `Node.js`，建立 JavaScript module，并部署于 `NPM` 使用",
+        "熟悉 GitBook Plugin 的开发",
+        "能够通过使用 `Mocha` 与 `Chai` 编写模块的单元测试"
+      ]
+    }, {
+      "summary": "前端工程实践",
+      "description": [
+        "编写出 `comet.js` 并用轮询的方式模拟 socket 建立页面与服务器之间的数据联系",
+        "编写出 `share.js` 以总结出目前常用的分享组件",
+        "编写出 `transform.js` 以完成图片在页面中的扭曲效果渲染",
+        "熟悉使用 `jQuery` 库进行逻辑开发，以及页面的交互操作开发",
+        "熟悉使用 `Zeplin`, `DreamWeaver CC` 等设计展示工具，分析设计人员所给定的设计文件，并用于前端页面开发",
+        "了解并能使用过 `GreenShock`、`Walkway`、`Dynamics`等库进行较为复杂的动画开发",
+        "能采用 `rem` 解决移动端的响应式布局问题"
+      ]
+    }]
+  },  {
+    "type": "desktop",
+    "item": [{
+      "summary": "`Visual C#`",
+      "description": [
+        "能使用 `Visual Studio` 结合 `Visual C#` 以及 `XAML` 搭建 Windows 8 风格的桌面软件应用"
+      ]
+    }]
+  }, {
+    "type": "backend",
+    "item": [{
+      "summary": "`PHP`",
+      "description": [
+        "熟悉使用 `Laravel` 框架搭建服务器后台，并书写 API",
+        "有使用过 `ThinkPHP` 建立简单的后台管理系统经验",
+        "曾使用过 PHP 所提供的 `curl` 请求方式，模拟来路以及 IP，攻击了部分投票活动"
+      ]
+    }]
+  }, {
+    "type": "video",
+    "item": [{
+      "summary": "`C++ ` / `Shell`",
+      "description": [
+        "熟悉使用 `OpenCV` 完成复杂的计算机视觉计算，如光流计算或四边行检测等",
+        "曾使用 `Dlib` 库完成人脸识别的 `landsmark` 功能",
+        "熟悉使用 `Ffmpeg` 工具进行视频处理",
+        "熟悉使用 `ImageMagick` 工具进行图形处理"
+      ]
+    }]
+  }, {
+    "type": "miscellaneous",
+    "item": [
+      "两年 `Linux` 使用经验，熟悉常用命令与配置，能编写简单的 `bash` 脚本",
+      "两年设计经验，能使用 `Photoshop` / `Illustrator` 完成复杂的平面设计",
+      "`GitHub` 使用时间一年半，能熟悉的 fork 出项目并为自己的本地修改建立一次 `Pull Request`",
+      "`GitBook` 使用时间半年，能熟悉的 `Markdown` 书写文档及笔记",
+      "能使用 `Apiary` 书写 API 规范文档",
+      "常使用 `Gitter` 与协同开发者进行项目中的讨论",
+      "日常使用 `Git` 与 `Sublime Text 3` / `Vim` / `Atom` 进行开发",
+      "惯于观看英文类文献，并参加有掘金翻译计划，`翻译`科技文献数篇。",
+      "..."
+    ]
+  }]
+}
