@@ -86,8 +86,8 @@
     "techtype": "frontend",
     "project_type": "personal",
     "name": "Personal Wiki",
-    "source": "https://github.com/aleen42/PersonalWiki",
     "demo": "https://aleen42.gitbooks.io/personalwiki/content/",
+    "source": "https://github.com/aleen42/PersonalWiki",
     "description": [
       "基于 [`GitBook`](https://www.gitbook.com/) 构建，并采用 [`Markdown`](https://guides.github.com/features/mastering-markdown/) 语言进行书写的一本个人维基百科"
     ],
@@ -107,6 +107,7 @@
     "techtype": "frontend",
     "project_type": "personal",
     "name": "sound.js",
+    "demo": "http://aleen42.github.io/example/sound/index.html",
     "source": "https://github.com/aleen42/sound.js",
     "description": [
       "基于 [`React`](https://facebook.github.io/react/) + [`Webpack`](https://webpack.github.io/) 所编写的一个项目。主要用于 [`Web Audio`](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API) 的研究"
@@ -117,8 +118,8 @@
     "techtype": "frontend",
     "project_type": "personal",
     "name": "transformMatrix3D",
-    "source": "https://github.com/aleen42/transformMatrix3D",
     "demo": "http://www.soundtooth.cn/mediain/1",
+    "source": "https://github.com/aleen42/transformMatrix3D",
     "description": [
       "基于 [`CSS3`](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3) 的 [`transform`](https://developer.mozilla.org/en-US/docs/Web/CSS/transform) 技术实现视频动态植入内容的渲染部分"
     ],
