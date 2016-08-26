@@ -9,7 +9,8 @@ var server = gls.static('dist', 8000);
 /**************** Utility **********************/
 function highlight(str) {
   return str.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
-    .replace(/`(.+?)`/g, '<strong>$1</strong>');
+    .replace(/`(.+?)`/g, '<strong>$1</strong>')
+    .replace(/\[(.*?)\]\((.*?)\)/g, '<a href="$2" target="_blank">$1</a>');
 }
 
 /******************* Jade to html ***********/

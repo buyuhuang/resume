@@ -1,16 +1,24 @@
 module.exports = {
     experience_type: {
-        "internship": "（实习）"
+        "internship": "（实习）",
+        "fulltime": "（全职）"
     },
     skill_type: {
+        "video": "视频图像处理",
+        "desktop": "Desktop 前端",
         "frontend": "Web 前端",
         "backend": "Web 后端",
         "miscellaneous": "其他"
+    },
+    about_type: {
+        "links": "链接"
     },
     education_type: {
         "undergraduate": "（本科）"
     },
     link_type: {
+        "linkedin": "领菁",
+        "lofter": "Lofter",
         "zhihu": "知乎",
         "doubanbook": "豆瓣读书",
         "repo": "源代码",
@@ -32,6 +40,10 @@ module.exports = {
         "skills": {
             "ch": "技能",
             "en": "Skills"
+        },
+        "about": {
+            "ch": "相关信息",
+            "en": "About"
         }
     },
     lt_ie8_comment: "你正在使用 IE8 或更老的古董浏览器，还是快升级或者换浏览器吧~",

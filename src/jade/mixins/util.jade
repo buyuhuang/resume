@@ -66,6 +66,14 @@ mixin skills_frontend(item)
   +skills_basic(item)(attributes)
 
 
+ mixin skills_desktop(item)
+  +skills_basic(item)(attributes)
+
+
+mixin skills_video(item)
+  +skills_basic(item)(attributes)
+
+
 mixin skills_backend(item)
   +skills_basic(item)(attributes)
 
@@ -76,6 +84,11 @@ mixin skills_miscellaneous(item)
         li.skills-item-description
           span!= highlight(desc)
 
+mixin about_links(item)
+  ul.about-description.about-links.timeline-content
+    each desc in item.item
+      li.about-item-description
+        span!= highlight(desc)
 
 mixin experience_title_job(item)
   span.experience-place= item.place
@@ -91,6 +104,12 @@ mixin experience_title_internship(item)
 
 mixin experience_content_internship(item)
   +experience_content_job(item)
+
+  mixin experience_title_fulltime(item)
+    +experience_title_job(item)
+
+  mixin experience_content_fulltime(item)
+    +experience_content_job(item)
 
 mixin experience_title_project(item)
   span.experience-project-type= project_type[item.project_type]
