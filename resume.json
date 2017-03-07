@@ -62,7 +62,7 @@
     "techtype": "frontend",
     "place": "声牙科技 Soundtooth",
     "start": "2015.07",
-    "end": "至今",
+    "end": "2016.11",
     "name": "Web 端开发",
     "description": [
       "基于 [`Laravel`](https://laravel.com/) 及 [`ThinkPHP`](https://github.com/top-think/thinkphp) 框架下进行 API 接口开发以及服务器渲染页面",
@@ -74,7 +74,7 @@
     "techtype": "other",
     "place": "声牙科技 Soundtooth",
     "start": "2015.11",
-    "end": "至今",
+    "end": "2016.11",
     "name": "视频处理开发",
     "description": [
       "基于 OpenCV 上构建了一套中间件 [`LightOpenCV`](https://github.com/aleen42/LightOpenCV)，并基本实现视频动态植入内容"
