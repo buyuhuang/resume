@@ -3,18 +3,24 @@ module.exports = {
         "internship": "(internship)"，
         "fulltime": "（fulltime）"
     },
+    profile_type: {
+        "profile": "Profile"
+    },
     skill_type: {
         "video": "Computer Vision Development",
         "desktop": "Desktop Development",
         "frontend": "Frontend Development",
         "backend": "Backend Development",
-        "miscellaneous": "Miscellaneous"
+        "miscellaneous": "Miscellaneous",
+        "postproduction": "Post Production",
+        "director": "Director"
     },
     about_type: {
         "links": "Links"
     },
     education_type: {
-        "undergraduate": "(Bachelor's degree)"
+        "undergraduate": "(Bachelor's degree)",
+        "underjunior": "Junior's degree"
     },
     link_type: {
         "linkedin": "LinkedIn",
@@ -32,6 +38,10 @@ module.exports = {
         "language": {
             "ch": "Language",
             "en": "Language"
+        },
+        "profile": {
+            "ch": "Profile",
+            "en": "Profile" 
         },
         "experience": {
             "ch": "Experience",

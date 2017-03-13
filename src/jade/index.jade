@@ -22,6 +22,10 @@ block language
         each desc in lang.description
           li.language-desc-item= desc
 
+block profile
+  +section("profile", true)
+    each item in profile
+      +#{"profile_content_" + item.type}(item)
 
 block experience
   +section("experience", true)

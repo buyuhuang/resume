@@ -9,6 +9,10 @@ mixin sinaweibo(data)
   li.contact-sinaweibo&attributes(attributes)
     a(href=data.url)= data.id
 
+mixin lofter(data)
+  li.contact-lofter&attributes(attributes)
+    a(href=data.url)= data.id
+
 mixin github(data)
   li.contact-github&attributes(attributes)
     a(href="https://github.com/" + data.id)= "https://github.com/" + data.id
@@ -65,6 +69,11 @@ mixin skills_basic(item)
 mixin skills_frontend(item)
   +skills_basic(item)(attributes)
 
+mixin skills_postproduction(item)
+  +skills_basic(item)(attributes)
+
+mixin skills_director(item)
+  +skills_basic(item)(attributes)
 
  mixin skills_desktop(item)
   +skills_basic(item)(attributes)
@@ -124,3 +133,9 @@ mixin experience_content_project(item)
   dt.experience-project-name= item.name
   each desc in item.description
     dd.experience-task!= highlight(desc)
+
+
+
+mixin profile_content_profile(item)
+  each desc in item.description
+    dd.profile-task!= highlight(desc)

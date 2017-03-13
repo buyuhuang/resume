@@ -3,18 +3,24 @@ module.exports = {
         "internship": "（实习）",
         "fulltime": "（全职）"
     },
+    profile_type: {
+        "profile": "自我评价"
+    },
     skill_type: {
         "video": "视频图像处理",
         "desktop": "Desktop 前端",
         "frontend": "Web 前端",
         "backend": "Web 后端",
+        "postproduction": "后期制作",
+        "director": "编导",
         "miscellaneous": "其他"
     },
     about_type: {
         "links": "链接"
     },
     education_type: {
-        "undergraduate": "（本科）"
+        "undergraduate": "（本科）",
+        "underjunior": "（大专）"
     },
     link_type: {
         "linkedin": "领菁",
@@ -32,6 +38,10 @@ module.exports = {
         "language": {
             "ch": "语言水平",
             "en": "Language"
+        },
+        "profile": {
+            "ch": "个人评价",
+            "en": "Profile"
         },
         "experience": {
             "ch": "项目与工作经验",

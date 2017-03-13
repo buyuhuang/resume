@@ -1,27 +1,28 @@
 {
   "data_lang": "zh-CN",
   "ga_id": "UA-63818301-2",
-  "resume_title": "aleen42 | Resume",
-  "name": "徐沛文",
-  "job_description": ["前端工程师", "软件工程师"],
+  "resume_title": "Alien | Resume",
+  "name": "周树枝",
+  "job_description": ["编导", "采编"],
   "contact": {
-    "email": "aleen42@vip.qq.com",
+    "email": "554937131@qq.com",
     "wechat": {
-      "id": "Aleen_me",
-      "qrcode": "static/wechat.svg"
+      "id": "Alien_me",
+      "qrcode": "static/wechat_alien.svg"
     },
     "sinaweibo": {
-      "id": "aleen42",
-      "url": "http://weibo.com/234835584"
+      "id": "慕嵇叹阮",
+      "url": "http://weibo.com/1967903274"
     },
-    "github": {
-      "id": "aleen42"
+    "lofter": {
+      "id": "十年丶一瞬",
+      "url": "http://alien-him.lofter.com/"
     },
-    "phone": "185-7589-3728"
+    "phone": "185-6640-8343"
   },
   "links": [{
     "type": "pdf",
-    "url": "static/aleen42.pdf"
+    "url": "static/alien.pdf"
   }, {
     "type": "linkedin",
     "url": "https://www.linkedin.com/in/aleen42"
@@ -30,137 +31,115 @@
     "url": "http://aleen42.lofter.com/"
   }],
   "education": [{
-    "type": "undergraduate",
-    "name": "西安电子科技大学",
-    "major": "软件工程",
+    "type": "underjunior",
+    "name": "湖南大众传媒职业技术学院",
+    "major": "新闻采编与制作",
     "start": "2012",
-    "end": "2016",
+    "end": "2015",
     "honor": [
-      "ACM 华为杯校赛**二等奖**",
-      "2012 - 2015 学年度校**二等奖学金**"
+      "全国计算机二级应用证书",
+      "普通话二级甲等证书"
     ]
   }],
   "language": [{
+    "type": "chinese",
+    "certificate": [{
+      "type": "普通话等级",
+      "full": "100",
+      "score": "二级甲等"
+    }],
+    "description": []
+  }, {
     "type": "english",
     "certificate": [{
       "type": "CET-4",
       "full": "710",
-      "score": "545"
-    }, {
-      "type": "CET-6",
-      "full": "710",
-      "score": "510"
+      "score": "450"
     }],
+    "description": []
+  }],
+  "profile": [{
+    "type": "profile",
     "description": [
-      "能流畅阅读英文专业书籍、文档及其他资料",
-      "参加有翻译活动（掘金翻译计划），并在个人维基上发布",
-      "能在 StackOverflow 、GitHub 等技术社区上进行讨论"
+      "`热爱媒体`给人带来的力量和思考变化而立志从事媒体工作。`学习能力强`，分析理解到位，对作品整体的`把握清晰明了`，`独立完成`多类型作品的策划和剪辑，如新闻报道、混剪MV、人物专访等；希望1年内能成为一位合格的编导，2年内能成为节目的中坚力量。因无甚经验与资历更`虚心`向学。性格活泼开朗，追求具有`归属感`的团队合作，亦喜独立工作。"
     ]
   }],
   "experience": [{
-    "type": "internship",
-    "techtype": "frontend",
-    "place": "声牙科技 Soundtooth",
-    "start": "2015.07",
-    "end": "2016.12",
-    "name": "Web 端开发",
-    "description": [
-      "基于 [`Laravel`](https://laravel.com/) 及 [`ThinkPHP`](https://github.com/top-think/thinkphp) 框架下进行 API 接口开发以及服务器渲染页面",
-      "使用 [`jPlayer`](https://github.com/happyworm/jPlayer/) 自主开发网页播放器，并参与公司前期 Voice In 网站的开发",
-      "使用 [`Node.js`](https://nodejs.org/en/) 自主开发 [`GitBook`](https://www.gitbook.com/) 扩展。<br/>[`gitbook-footer`](https://github.com/aleen42/gitbook-footer) 以及 [`gitbook-treeview`](https://github.com/aleen42/gitbook-treeview)。"
-    ]
-  }, {
     "type": "fulltime",
     "techtype": "other",
-    "place": "声牙科技 Soundtooth",
-    "start": "2015.11",
+    "place": "深圳声牙科技有限公司",
+    "start": "2015.08",
     "end": "2016.12",
-    "name": "视频处理开发",
+    "name": "运营推广/商务合作",
     "description": [
-      "基于 OpenCV 上构建了一套中间件 [`LightOpenCV`](https://github.com/aleen42/LightOpenCV)，并基本实现视频动态植入内容"
+      "独立负责`视频营销`事务，以及日常品牌在各大视频平台上的曝光和推广",
+      "策划相关用于品牌推广的`影像拍摄`及`后期制作`",
+      "进行`活动运营`事务，并在微信平台和微进行上进行品牌活动的设计与曝光",
+      "进行`互联网`相关的商务洽谈"
     ]
   }, {
-    "type": "project",
-    "techtype": "frontend",
-    "project_type": "personal",
-    "name": "Personal Wiki",
-    "demo": "https://aleen42.gitbooks.io/personalwiki/content/",
-    "source": "https://github.com/aleen42/PersonalWiki",
+    "type": "internship",
+    "techtype": "other",
+    "place": "广东电视台移动、汽车会展频道",
+    "start": "2015.01",
+    "end": "2015.04",
+    "name": "后期制作",
     "description": [
-      "基于 [`GitBook`](https://www.gitbook.com/) 构建，并采用 [`Markdown`](https://guides.github.com/features/mastering-markdown/) 语言进行书写的一本个人维基百科"
-    ],
-    "stack": ["GitBook", "Markdown"]
+      "独立制作1分钟`日常新闻资讯`，如《壶塗——金新宇书画精品展》、《中泰拳王称重仪式及媒体见面会》、《“丫丫奇”约您同游波罗诞》等",
+      "独立制作10分钟和20分钟`人物专题`视频，如《铮铮铁骨似红梅——贾聚成》、《以书载道 再现岭南霞光——郑荣明》、《紫砂壶语品人生——冯木强》等",
+      "参与栏目《`古韵今谈`》和《`一方水土`》中新年特辑《2015喜气“羊羊”贺新春》的文稿攥写与后期制作"
+    ]
   }, {
-    "type": "project",
-    "techtype": "frontend",
-    "project_type": "personal",
-    "name": "CLS - Code Line Statistic for GitHub",
-    "source": "https://github.com/aleen42/CLS",
+    "type": "internship",
+    "techtype": "other",
+    "place": "浙江卫风传媒有限公司",
+    "start": "2014.07",
+    "end": "2014.10",
+    "name": "助理编导",
     "description": [
-      "一个基于 [`Node.js`](https://nodejs.org/en/)，用于统计个人 [`GitHub`](https://github.com/) 仓库中代码数目的命令行工具"
-    ],
-    "stack": ["Node.js", "svn"]
-  }, {
-    "type": "project",
-    "techtype": "frontend",
-    "project_type": "personal",
-    "name": "sound.js",
-    "demo": "http://aleen42.github.io/example/sound/index.html",
-    "source": "https://github.com/aleen42/sound.js",
-    "description": [
-      "基于 [`React`](https://facebook.github.io/react/) + [`Webpack`](https://webpack.github.io/) 所编写的一个项目。主要用于 [`Web Audio`](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API) 的研究"
-    ],
-    "stack": ["ReactJS"]
-  }, {
-    "type": "project",
-    "techtype": "frontend",
-    "project_type": "personal",
-    "name": "transformMatrix3D",
-    "demo": "http://www.soundtooth.cn/mediain/1",
-    "source": "https://github.com/aleen42/transformMatrix3D",
-    "description": [
-      "基于 [`CSS3`](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3) 的 [`transform`](https://developer.mozilla.org/en-US/docs/Web/CSS/transform) 技术实现视频动态植入内容的渲染部分"
-    ],
-    "stack": ["css"]
+      "参与由何炅刘梦娜主持的青海卫视大型儿童成长见证秀节目《[`第一次任务`](http://www.baidu.com/)》的流程制作",
+      "联系和筛选拍摄对象、对相关资料进行整理和归纳并与拍摄双方进行交涉以确保成品视频进度",
+      "思考如何传递`节目理念`与想法，并增强自身的对外人际关系"
+    ]
   }],
   "skills": [{
-    "type": "frontend",
+    "type": "postproduction",
     "item": [{
-      "summary": "`HTML` / `CSS`",
+      "summary": "`平面设计`",
       "description": [
-        "能够编写语义化的 `HTML`，且代码布局清晰。",
-        "能通过个人的 HTML 查找手册，快速定位开发中所遇到的问题",
-        "能使用已标准化的 `HTML5` / `CSS3` 新特性进行业务逻辑开发",
-        "CSS 开发部分遵循 `BEM` 命名规则，并有自己的规范"
+        "了解使用 `Photoshop` 进行相关图像的处理和设计",
+        "能使用 `Lightroom` 来处理图像，并具有自己既定的风格"
       ]
     }, {
-      "summary": "`ECMAScript`（`JavaScript`）",
+      "summary": "`视频制作`",
       "description": [
-        "较为熟悉 `ECMAScript`(`JavaScript`)，并对 ES6 部分标准有所了解",
-        "JavaScript 开发严格遵循自己的一套开发规范。该规范是基于部分大公司的规范所总结，如 Airbnb、Idiomatic 等。"
-      ]
-    }, {
-      "summary": "`React + Webpack`",
-      "description": [
-        "熟悉分析并设计 `ReactJS` 中组件间的数据流动",
-        "掌握 `Webpack` 的构建功能，并了解 `Router` 及 `Redux`。"
+        "熟悉使用 `Premiere` 进行视频的剪辑，并希望通过锻炼及经验的积累去形成自己的风格",
+        "自身具有一定的`色彩`知识与`美学`观念，并能运用于视频的制作当中",
+        "熟悉视频制作的基本流程，并对`新闻采编`和电视节目`制作流程`有一定的知识性了解",
+        "能操作相关`拍摄器材`，并对`单反`相机的操作具有更为深入的了解",
+        "善用互联网中与 `After Effects` 的相关资源去进行编辑"
       ]
     }]
   }, {
-    "type": "backend",
+    "type": "director",
     "item": [{
-      "summary": "`PHP`",
+      "summary": "`策划`",
       "description": [
-        "熟悉使用 `Laravel` 框架搭建服务器后台，并书写 API",
-        "有使用 `ThinkPHP` 建立简单后台管理系统的经验"
+        "具备一定`互联网思维`的活动策划能力",
+        "能以文案的形式清晰地表达出自己的想法"
+      ]
+    }, {
+      "summary": "`统筹`",
+      "description": [
+        "能调用相关资源去`协调`并解决相关的协作问题"
       ]
     }]
   }, {
     "type": "miscellaneous",
     "item": [
-      "两年 `Linux` 使用经验，熟悉常用命令与配置，能编写简单的 `bash` 脚本",
-      "两年设计经验，能使用 `Photoshop` / `Illustrator` 完成复杂平面设计",
-      "熟悉使用 `Git` / `GitHub` / `Gitter` / `GitBook` 等协助开发工具",
+      "熟悉使用 `Office` 系列产品去辅助工作",
+      "了解中国传统`服饰`与传统`建筑`的相关细节",
+      "掌握互联网相关平台的运营和文章发布流程",
       "..."
     ]
   }],
