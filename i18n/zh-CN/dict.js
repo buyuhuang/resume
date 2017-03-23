@@ -13,7 +13,8 @@ module.exports = {
         "backend": "Web 后端",
         "postproduction": "后期制作",
         "director": "编导",
-        "miscellaneous": "其他"
+        "miscellaneous": "其他",
+        "hobbies": "爱好"
     },
     about_type: {
         "links": "链接"

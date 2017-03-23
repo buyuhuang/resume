@@ -12,6 +12,7 @@ module.exports = {
         "frontend": "Frontend Development",
         "backend": "Backend Development",
         "miscellaneous": "Miscellaneous",
+        "hobbies": "Hobbies",
         "postproduction": "Post Production",
         "director": "Director"
     },
