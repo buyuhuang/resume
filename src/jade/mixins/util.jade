@@ -114,7 +114,10 @@ mixin experience_title_job(item)
 mixin experience_content_job(item)
   dt.experience-position= item.name + experience_type[item.type]
   each desc in item.description
-    dd.experience-task!= highlight(desc)
+    if desc[0] == '\u0000'
+      dd.experience-task-content!= highlight(desc)
+    else
+      dd.experience-task!= highlight(desc)
 
 mixin experience_title_internship(item)
   +experience_title_job(item)
@@ -135,14 +138,6 @@ mixin experience_title_project(item)
       a.experience-project-link(href=item.source)= dict.source_code
     if item.demo
         a.experience-project-link(href=item.demo)= dict.demo
-
-mixin experience_content_project(item)
-
-  dt.experience-project-name= item.name
-  each desc in item.description
-    dd.experience-task!= highlight(desc)
-
-
 
 mixin profile_content_profile(item)
   each desc in item.description
