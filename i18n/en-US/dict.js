@@ -16,6 +16,9 @@ module.exports = {
         "postproduction": "Post Production",
         "director": "Director"
     },
+    work_type: {
+        "links": "Links"
+    },
     about_type: {
         "links": "Links"
     },
@@ -53,8 +56,12 @@ module.exports = {
             "en": "Skills"
         },
         "about": {
-            "ch": "about",
-            "en": "about"
+            "ch": "About",
+            "en": "About"
+        },
+        "works": {
+            "ch": "Works",
+            "en": "Works"
         }
     },
     lt_ie8_comment: "You are using IE8 or lower version of IE, which is not supported."

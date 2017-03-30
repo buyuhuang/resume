@@ -107,6 +107,13 @@ mixin about_links(item)
       li.about-item-description
         span!= highlight(desc)
 
+mixin works_links(item)
+  ul.works-description.works-links.timeline-content
+    each desc in item.item
+      li.works-item-description
+        span!= highlight(desc)
+
+
 mixin experience_title_job(item)
   span.experience-place= item.place
   time.experience-time #{item.start} ~ #{item.end}

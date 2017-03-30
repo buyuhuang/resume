@@ -16,6 +16,9 @@ module.exports = {
         "miscellaneous": "其他",
         "hobbies": "爱好"
     },
+    works_type: {
+        "links": "链接"
+    },
     about_type: {
         "links": "链接"
     },
@@ -55,6 +58,10 @@ module.exports = {
         "about": {
             "ch": "相关信息",
             "en": "About"
+        },
+        "works": {
+            "ch": "作品",
+            "en": "Works"
         }
     },
     lt_ie8_comment: "你正在使用 IE8 或更老的古董浏览器，还是快升级或者换浏览器吧~",

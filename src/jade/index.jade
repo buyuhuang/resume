@@ -52,6 +52,13 @@ block about
           span.about-type= about_type[item.type]
         +#{"about_" + item.type}(item)
 
+block works
+  +section("works", true)
+    each item in works
+      li.timeline-item(class="works-" + item.type)
+        h3.timeline-title
+          span.works-type= works_type[item.type]
+        +#{"works_" + item.type}(item)
 
 block links
     ul.links
